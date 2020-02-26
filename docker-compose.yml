@@ -1,0 +1,40 @@
+# docker-compose.yml
+version: 2
+
+services:
+  web:
+  cloudfrontDistribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        CacheBehaviors:
+          - 
+            behavior
+        DefaultCacheBehavior: 
+        IPV6Enabled: true | false
+        Origins:
+          - 
+            origin
+      Tags:
+        - Key: key
+          Value: value
+          dynamodbTable:
+            Type: AWS::DynamoDB::Table
+            Properties:
+              AttributeDefinitions:
+                - 
+                  attribute definition
+              GlobalSecondaryIndexes:
+                - 
+                  global secondary indexes
+              LocalSecondaryIndexes:
+                - 
+                  local secondary indexes
+              KeySchema:
+                - 
+                  key schema
+              ProvisionedThroughput: 
+              TableName: 
+              Tags:
+                - Key: key
+                  Value: value

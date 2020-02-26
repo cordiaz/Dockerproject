@@ -1,0 +1,48 @@
+/* [GUESTBOOK ENTRIES] */
+#guestbook{
+  max-width: 400px;
+}
+.gb-entry {
+  padding: 10px;
+  margin: 10px;
+  background: #ffd8d8;
+  border: 1px solid #ef7a7a;
+}
+.gb-head {
+  font-weight: bold;
+  font-size: 1.08em;
+}
+.gb-body {
+  font-size: 1.05em;
+}
+
+/* [SIGN THE GUESTBOOK] */
+#gb-sign, #gb-sign input {
+  font-family: arial;
+}
+#gb-sign {
+  max-width: 320px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #eee;
+  background: #f2f2f2;
+}
+#gb-sign h1 {
+  margin: 0 0 10px 0;
+  font-size: 1.5em;
+}
+#gb-sign input[type=email], #gb-sign input[type=text] {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+#gb-sign input[type=submit] {
+  margin-top: 10px;
+  padding: 10px;
+  background: #b22121;
+  color: #fff;
+  border: 0;
+  font-size: 0.9em;
+}

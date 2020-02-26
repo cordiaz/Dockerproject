@@ -1,0 +1,16 @@
+############################
+# Dockerfile apache2 image #
+############################
+# Base image-nya Ubuntu
+FROM ubuntu:18.04
+# Author: M. Cordiaz
+MAINTAINER Muhammad Cordiaz <cordiaz@cordiaz.com>
+# Install apache2 package
+RUN apt-get update
+RUN apt-get install -y apache2
+RUN apt-get clean
+# COPY default /usr/share/sites-availability/
+# ADD http://github.com/cordiaz/sosial-media-master/master.zip /var/www/html
+# USER jenkins
+# WORKDIR /var/www/html
+
